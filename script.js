@@ -1,4 +1,3 @@
-// script.js
 function adicionarItem() {
     var input = document.getElementById("itemInput");
     var item = input.value;
