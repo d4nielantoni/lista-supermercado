@@ -7,7 +7,7 @@ body {
 }
 
 #itemList {
-    list-style-type: none;
+    list-style-type:none;
     padding: 0;
 }
 
@@ -17,4 +17,38 @@ body {
 
 .deleteButton {
     margin-left: 5px;
+    color: white;
+    background-color: rgb(250, 52, 52);
+    /* border-radius: 10px; */
+    margin-top: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-adicionar{
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 208, 52);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.botao-limpar{
+    color: white;
+    background-color: rgb(250, 52, 52);
+    border-radius: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-adicionar:hover{
+    background-color: rgb(57, 130, 70);
+    font-size: 15px;
+    transition: ease 0.3s;
+}
+
+.botao-limpar:hover{
+    background-color: rgb(134, 50, 50);
+    font-size: 15px;
+    transition: ease 0.3s;
 }
