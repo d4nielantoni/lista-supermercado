@@ -43,12 +43,15 @@ body {
 
 .botao-adicionar:hover{
     background-color: rgb(57, 130, 70);
-    font-size: 15px;
     transition: ease 0.3s;
 }
 
 .botao-limpar:hover{
     background-color: rgb(134, 50, 50);
-    font-size: 15px;
+    transition: ease 0.3s;
+}
+
+.deleteButton:hover{
+    background-color: rgb(134, 50, 50);
     transition: ease 0.3s;
 }

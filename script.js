@@ -82,5 +82,4 @@ function carregarListaLocalStorage() {
     }
 }
 
-// Carregar os dados da lista de compras do localStorage ao carregar a página
 carregarListaLocalStorage();
